@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Laracast Projects - Home</title>
 </head>
 <body>
 
+	<h1>Laracast Projects:</h1>
+
+	<p>
+
     <ul>
 
-        @foreach ($tasks as $task)
-        
-            <li>{{ $task }}</li>
+            <li><a href="/posts">Posts</a></li>
+            <li><a href="/tasks">Tasks</a></li>
 
-        @endforeach
 
     </ul>
 
